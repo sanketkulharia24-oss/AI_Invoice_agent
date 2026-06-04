@@ -211,16 +211,8 @@ pytest --cov=src tests/
 
 ## 📄 License
 
-[Add your license here]
+Sanket Kulharia
 
 ## 👤 Author
 
 sanketkulharia24-oss
-
-## 🤝 Contributing
-
-Contributions are welcome! Please create a PR with your improvements.
-
-## 📞 Support
-
-For issues and questions, please open a GitHub issue.
