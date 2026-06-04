@@ -1,0 +1,32 @@
+# Configuration file for AI Invoice Agent
+
+# Paths
+paths:
+  data_dir: "./data/invoices"
+  output_dir: "./output"
+  model_dir: "./models"
+
+# Processing settings
+processing:
+  batch_size: 10
+  confidence_threshold: 0.7
+  max_workers: 4
+
+# Pipeline configurations
+pipelines:
+  pipeline_a:
+    enabled: true
+    ocr_engine: tesseract
+    language: eng
+    
+  pipeline_b:
+    enabled: true
+    vision_api: openai  # or 'azure'
+    llm_model: gpt-3.5-turbo
+    temperature: 0.3
+
+# Logging
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  log_file: "./logs/app.log"
